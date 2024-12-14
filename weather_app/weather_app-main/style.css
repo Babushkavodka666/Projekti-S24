@@ -2,11 +2,13 @@
 /*----------------Header CSS ---------------------*/
 header {
   width: 100%;
-    color: #fff;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('img/earth.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url('img/jase-harris-rcunU-69NDg-unsplash.jpg');
     background-position: center;
-    padding-bottom: 5%;
+    background-size: 2100px;
+    padding-bottom: 10%;
 }
 
 nav{
@@ -38,7 +40,7 @@ nav{
   content: '';
   width: 0%;
   height: 2px;
-  background: #3085C3;
+  background: #30b2c3;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -64,7 +66,7 @@ nav{
     width: 60%;
     border: none;
     border-radius: 10px;
-    color: black;   
+    color: rgb(79, 167, 165);   
 }
 
 #search-button {
@@ -81,7 +83,7 @@ nav{
 .heders{
   font-size: 30px;
   font-weight: bold;
-  background-color: #333;
+  background-color: #49b9ac;
   color: #fff;
   padding: 10px;
   border-radius: 5px;
@@ -149,7 +151,7 @@ nav{
   text-align: center;
   border: 2px solid #fff;
   padding: 10px;
-  background-color: #333;
+  background-color: #40aec4;
   color: #fff;
 }
 
@@ -161,7 +163,7 @@ nav{
 .tblForcast td{
   border: 2px solid #fff;
   padding: 10px;
-  background-color: #333;
+  background-color: #3d9d93;
   color: #fff;
   text-align: center;
 }
@@ -255,7 +257,7 @@ nav{
     .heders{
       font-size: 20px;
       font-weight: bold;
-      background-color: #333;
+      background-color: #40b9b1;
       color: #fff;
       padding: 8px;
       border-radius: 5px;
@@ -318,7 +320,7 @@ nav{
   text-align: center;
   border: 2px solid #fff;
   padding: 5px;
-  background-color: #333;
+  background-color: #47b2af;
   color: #fff;
 }
 
@@ -326,7 +328,7 @@ nav{
   font-size: 8px;
   border: 2px solid #fff;
   padding: 5px;
-  background-color: #333;
+  background-color: #4eada6;
   color: #fff;
   text-align: center;
 }
